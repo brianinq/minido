@@ -11,3 +11,15 @@ function App() {
       .then((res) => res.json())
       .then((data) => setNotes(data));
   }, []);
+  return (
+    <div className="App">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home notes={notes} />} />
+        <Route path="/create" exact element={<Home notes={notes} create={true} setNotes={setNotes} />} />
+        <Route path="/todo" exact element={<TodoList />} />
+      </Routes>
+    </div>
+  );
+}
+
