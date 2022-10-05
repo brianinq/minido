@@ -24,7 +24,37 @@
       "id": 4,
       "title": "NodeJS",
       "content": "What's theNode.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications."
+    },
+    {
+      "title": "A title",
+      "content": "Some random content",
+      "id": 5
     }
   ],
-  "todos": []
+  "todos": [
+    {
+      "id": 1,
+      "text": "Develop project",
+      "done": false,
+      "category": "Code"
+    },
+    {
+      "id": 2,
+      "text": "Develop project",
+      "done": false,
+      "category": "Code"
+    },
+    {
+      "id": 3,
+      "text": "Develop project",
+      "done": false,
+      "category": "Code"
+    },
+    {
+      "text": "do something",
+      "category": "General",
+      "done": false,
+      "id": 4
+    }
+  ]
 }
