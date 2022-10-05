@@ -1,13 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0f172a;
+  padding: 0 16px;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: rgba(0,0,0,0);
+  margin: auto -16px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: #fbbf24;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+main{
+    height: 100%;
+    margin: 1rem auto;
+}
+.nodal{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(2px);
+  
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  background: #fbbf24;
+  color: #0f172a;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(247, 245, 245, 0.8);
+}
+.form input, .form textarea, .form button{
+  padding: 8px 10px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.form button{
+  margin-bottom: 0;
+  background: #0f172a;
+  color: #fbbf24;
+}
+
+.app{
+    height: 100vh;
+    width: 100%;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #aaa;
+  padding: 10px;
+  color: #0f172a;
+  max-width: 300px;
+  margin: 16px;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+    .note{
+        max-width: 100%;
+    }
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  flex: 1;
+  align-items: center;
+}
+nav ul a{
+  color: #0f172a;
+  background: #fbbf24;
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 10px 1rem;
 }
