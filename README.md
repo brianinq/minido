@@ -9,6 +9,10 @@ An application to help you take notes as well as Todos to track the progress of 
 ## Download and Setup
 
 - [Fork, Clone, or Download on Github](https://github.com/brianiq/minido)
+- Navigate to the project folder
+- Run npm install in your terminal.
+- Run npm run server. This will run your backend on port 8002.
+- In a new terminal, run npm start. This will run your React app on port 3000.
 
 ## Available Scripts
 
