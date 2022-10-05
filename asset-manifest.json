@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/minido/static/css/main.38f23fc6.css",
+    "main.js": "/minido/static/js/main.b3d68661.js",
+    "index.html": "/minido/index.html",
+    "main.38f23fc6.css.map": "/minido/static/css/main.38f23fc6.css.map",
+    "main.b3d68661.js.map": "/minido/static/js/main.b3d68661.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38f23fc6.css",
+    "static/js/main.b3d68661.js"
+  ]
+}
