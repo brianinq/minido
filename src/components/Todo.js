@@ -27,11 +27,11 @@ export default function Todo({ todo, onItemUpdate, onItemDelete }) {
     <li className={todo.done ? "done" : ""}>
       <span>{todo.text}</span>
       <span className="category">{todo.category}</span>
-      <button className={todo.done ? "remove" : "add"} onClick={doneHandler}>
-        {todo.done ? "Done" : "Incomplete"}
+      <button className="btn check" onClick={doneHandler}>
+        {todo.done ? <i class="fa-solid fa-xmark"></i> : <i class="fa-solid fa-check"></i>}
       </button>
-      <button className="remove" onClick={handleDelete}>
-        Delete
+      <button className="remove btn" onClick={handleDelete}>
+        <i class="fa-solid fa-trash"></i>
       </button>
     </li>
   );

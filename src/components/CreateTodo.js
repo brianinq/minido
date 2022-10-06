@@ -25,9 +25,9 @@ export default function CreateTodo({ onAddItem }) {
   }
 
   return (
-    <form className="NewItem" onSubmit={handleSubmit}>
+    <form className="newItem" onSubmit={handleSubmit}>
       <label>
-        Name:
+        Task:
         <input type="text" name="name" value={text} onChange={(e) => setText(e.target.value)} />
       </label>
 
@@ -41,7 +41,9 @@ export default function CreateTodo({ onAddItem }) {
         </select>
       </label>
 
-      <button type="submit">Submit</button>
+      <button className="btn" type="submit">
+        Submit
+      </button>
     </form>
   );
 }

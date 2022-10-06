@@ -15,7 +15,7 @@ function Header() {
           </li>
           <li>
             <NavLink to="/create" style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-              New Note
+              Note <i class="fa-solid fa-pen-to-square"></i>
             </NavLink>
           </li>
           <li>

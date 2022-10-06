@@ -40,15 +40,17 @@ export default function TodoList() {
   });
 
   return (
-    <div className="todoList">
-      <div className="header">Your Tasks Today</div>
-      <CreateTodo onAddItem={handleAddTodo} />
-      <Filter category={selectedCategory} onCategoryChange={handleCategoryChange} />
-      <ul className="todos">
-        {todosToDisplay.map((todo) => (
-          <Todo key={todo.id} todo={todo} onUpdateItem={handleUpdateItem} onItemDelete={handleDeleteItem} />
-        ))}
-      </ul>
+    <div className="container">
+      <div className="todoList">
+        <div className="header">Your Tasks Today</div>
+        <CreateTodo onAddItem={handleAddTodo} />
+        <Filter category={selectedCategory} onCategoryChange={handleCategoryChange} />
+        <ul className="todos">
+          {todosToDisplay.map((todo) => (
+            <Todo key={todo.id} todo={todo} onUpdateItem={handleUpdateItem} onItemDelete={handleDeleteItem} />
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
