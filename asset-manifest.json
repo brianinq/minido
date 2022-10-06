@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/minido/static/css/main.abd41652.css",
-    "main.js": "/minido/static/js/main.2a3932df.js",
+    "main.js": "/minido/static/js/main.fe4c0c7b.js",
     "index.html": "/minido/index.html",
     "main.abd41652.css.map": "/minido/static/css/main.abd41652.css.map",
-    "main.2a3932df.js.map": "/minido/static/js/main.2a3932df.js.map"
+    "main.fe4c0c7b.js.map": "/minido/static/js/main.fe4c0c7b.js.map"
   },
   "entrypoints": [
     "static/css/main.abd41652.css",
-    "static/js/main.2a3932df.js"
+    "static/js/main.fe4c0c7b.js"
   ]
 }
