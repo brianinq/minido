@@ -2,7 +2,7 @@
 
 An application to help you take notes as well as Todos to track the progress of your daily goals.
 
-## [Live Here](https://brianinq.github.io/minido)
+## [Live Here](https://minido.herokuapp.com/)
 
 ## By [Brian Kipkoech](https://github.com/brianinq)
 
