@@ -8,7 +8,7 @@ export default function Todo({ todo, onItemUpdate, onItemDelete }) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        isInCart: !todo.done,
+        done: !todo.done,
       }),
     })
       .then((res) => res.json())
