@@ -33,4 +33,4 @@ React, Json-Server
 
 ## Copyright and License
 
-Copyright 2022 AgriPlus. Code released under the [MIT](https://github.com/brianinq/minido/main/LICENSE) license.
+Copyright 2022 Minido. Code released under the [MIT](https://github.com/brianinq/minido/main/LICENSE) license.
